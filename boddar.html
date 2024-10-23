@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Class</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+*{
+  margin: 0%;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+
+}
+/* this is by using Descendant Selector() */
+.div1 p{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(122, 91, 91);
+  color: aliceblue;
+  border: 10px solid rgb(47, 141, 23);
+  padding: 30px;
+  margin: 10px;
+
+}
+/* this is by using Child Selector (>) */
+.div2>p{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(78, 100, 0);
+  background-clip: content-box;
+  color: lemonchiffon;
+  border: 10px dotted rgb(55, 0, 255);
+  padding: 30px;
+  margin: 10px;
+
+}
+/* this is by using Adjacent Sibling Selector (+) */
+.div3+p{
+  font-family: 'Courier New', Courier, monospace;
+  border: 20px double rgb(202, 32, 61);
+  padding: 30px;
+  margin: 10px;
+}
+/* this is by using The general sibling selector (~) */
+.div4~p{
+  font-family: 'Courier New', Courier, monospace;
+  border: 14px groove rgb(23, 122, 155);
+  padding: 30px;
+  margin: 10px;
+  background-color: rgb(0, 255, 55);
+  border-radius: 30PX;
+}
+section{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 11px inset rgb(209, 29, 29);
+  padding: 30px;
+  margin: 10px;
+  background-color: brown;
+  background-clip: padding-box;
+}
+.div3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: rgb(97, 180, 13);
+  padding: 20PX;
+
+}
+.div4{
+  border-top: 10PX;
+  border-bottom: 15PX;
+  border-style: outset;
+  border-color: coral;
+  padding: 20PX;
+  background-color: cornsilk;
+  background-clip: content-box;
+}
+        </style>
+</head>
+
+<body>
+
+    <div class="div1">
+        <p>Database Apps: These programs manage and share information efficiently among multiple users. Businesses
+            commonly use them for tasks like creating mailing lists, managing customer contacts, and analyzing
+            transaction records</p>
+    </div>
+    <div class="div2">
+        <p>Custom Apps: Tailored for specific user groups within an organization, custom apps help accomplish specific
+            tasks. They ensure a personalized experience for each team or team member</p>
+        <section>
+            <p>Artificial intelligence: (AI) is a set of technologies that enable computers to perform a variety of
+                 advanced functions, including the ability to see, understand and translate spoken and written language,
+                  analyze data, make recommendations, and more.</p>
+        </section>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque fugiat saepe laboriosam asperiores fugit
+            laudantium nihil doloribus. Explicabo blanditiis hic amet, inventore asperiores fugiat, laudantium, veniam
+            autem sint quisquam et.</p>
+    </div>
+    <div classEssentially, education socializes children into society by instilling cultural values and norms, equipping them with the skills necessary to become productive members of society. In doing so, it stimulates economic growth and raises awareness of local and global problems.="div3">
+        
+    </div>
+    <p></p>
+    <div class="div4">
+        <p>Social media: refers to the means of interactions among people in which they create, share, and/or exchange information and ideas in virtual communities and networks. The Office of Communications and Marketing manages the main Facebook, X/Twitter, Instagram, LinkedIn, and YouTube accounts.
+        </p>
+    </div>
+    <p>No Code Apps: Even simpler than low code apps, these require no coding at all. They’re great for
+        non-technical users who want to build basic applications</p>
+    <p>Teaching: is the practice implemented by a teacher aimed at transmitting skills
+         (knowledge, know-how, and interpersonal skills) to a learner, a student, or any 
+         other audience in the context of an educational institution.</p>
+
+</body>
+
+</html>
